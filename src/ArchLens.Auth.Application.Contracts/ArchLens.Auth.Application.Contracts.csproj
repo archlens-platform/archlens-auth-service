@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../ArchLens.Auth.Domain/ArchLens.Auth.Domain.csproj" />
+  </ItemGroup>
+</Project>

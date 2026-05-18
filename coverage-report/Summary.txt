@@ -1,0 +1,90 @@
+Summary
+  Generated on: 12/03/2026 - 01:18:05
+  Coverage date: 12/03/2026 - 01:16:44
+  Parser: Cobertura
+  Assemblies: 7
+  Classes: 56
+  Files: 55
+  Line coverage: 14.9%
+  Covered lines: 140
+  Uncovered lines: 795
+  Coverable lines: 935
+  Total lines: 1564
+  Branch coverage: 18% (22 of 122)
+  Covered branches: 22
+  Total branches: 122
+  Method coverage: 23% (48 of 208)
+  Full method coverage: 22.5% (47 of 208)
+  Covered methods: 48
+  Fully covered methods: 47
+  Total methods: 208
+
+ArchLens.Auth.Api                                                                                          0%
+  ArchLens.Auth.Api.Configurations.EmailMaskingEnricher                                                    0%
+  ArchLens.Auth.Api.Configurations.OpenTelemetryExtensions                                                 0%
+  ArchLens.Auth.Api.Configurations.RateLimitingExtensions                                                  0%
+  ArchLens.Auth.Api.Configurations.SerilogExtensions                                                       0%
+  ArchLens.Auth.Api.Controllers.AuthController                                                             0%
+  ArchLens.Auth.Api.ExceptionHandlers.GlobalExceptionHandler                                               0%
+  ArchLens.Auth.Api.Middlewares.CorrelationIdMiddleware                                                    0%
+  ArchLens.Auth.Api.Middlewares.PersonalDataAccessAuditMiddleware                                          0%
+  ArchLens.Auth.Api.Middlewares.SecurityHeadersMiddleware                                                  0%
+  Program                                                                                                  0%
+
+ArchLens.Auth.Application                                                                               61.9%
+  ArchLens.Auth.Application.DependencyInjection                                                            0%
+  ArchLens.Auth.Application.UseCases.Auth.Commands.DeleteAccount.DeleteAccountCommand                      0%
+  ArchLens.Auth.Application.UseCases.Auth.Commands.DeleteAccount.DeleteAccountCommandHandler               0%
+  ArchLens.Auth.Application.UseCases.Auth.Commands.Login.LoginCommand                                    100%
+  ArchLens.Auth.Application.UseCases.Auth.Commands.Login.LoginCommandHandler                             100%
+  ArchLens.Auth.Application.UseCases.Auth.Commands.Register.RegisterCommand                              100%
+  ArchLens.Auth.Application.UseCases.Auth.Commands.Register.RegisterCommandHandler                       100%
+  ArchLens.Auth.Application.UseCases.Auth.Queries.ExportUserData.ExportUserDataQuery                       0%
+  ArchLens.Auth.Application.UseCases.Auth.Queries.ExportUserData.ExportUserDataQueryHandler                0%
+  ArchLens.Auth.Application.UseCases.Auth.Validators.LoginCommandValidator                               100%
+  ArchLens.Auth.Application.UseCases.Auth.Validators.RegisterCommandValidator                            100%
+
+ArchLens.Auth.Application.Contracts                                                                     52.3%
+  ArchLens.Auth.Application.Contracts.Auth.JwtOptions                                                    100%
+  ArchLens.Auth.Application.Contracts.DTOs.AuthDTOs.AuthResponse                                          80%
+  ArchLens.Auth.Application.Contracts.DTOs.AuthDTOs.RegisterResponse                                      75%
+  ArchLens.Auth.Application.Contracts.DTOs.AuthDTOs.UserDataExportResponse                                 0%
+
+ArchLens.Auth.Domain                                                                                    74.5%
+  ArchLens.Auth.Domain.Entities.UserEntities.User                                                        100%
+  ArchLens.Auth.Domain.ValueObjects.Users.Email                                                            0%
+
+ArchLens.Auth.Infrastructure                                                                               0%
+  ArchLens.Auth.Infrastructure.Auth.BcryptPasswordHasher                                                   0%
+  ArchLens.Auth.Infrastructure.Auth.JwtTokenGenerator                                                      0%
+  ArchLens.Auth.Infrastructure.DependencyInjection                                                         0%
+  ArchLens.Auth.Infrastructure.Migrations.AddLgpdConsentAndDeleteUser                                      0%
+  ArchLens.Auth.Infrastructure.Migrations.AuthDbContextModelSnapshot                                       0%
+  ArchLens.Auth.Infrastructure.Persistence.EFCore.Configurations.UserConfigurations.UserConfiguration      0%
+  ArchLens.Auth.Infrastructure.Persistence.EFCore.Context.AuthDbContext                                    0%
+  ArchLens.Auth.Infrastructure.Persistence.EFCore.Context.AuthDbContextFactory                             0%
+  ArchLens.Auth.Infrastructure.Persistence.EFCore.Repositories.UserRepositories.UserRepository             0%
+  ArchLens.Auth.Infrastructure.Persistence.UnitOfWork                                                      0%
+
+ArchLens.Contracts                                                                                         0%
+  ArchLens.Contracts.Events.AnalysisCompletedEvent                                                         0%
+  ArchLens.Contracts.Events.AnalysisFailedEvent                                                            0%
+  ArchLens.Contracts.Events.DiagramUploadedEvent                                                           0%
+  ArchLens.Contracts.Events.GenerateReportCommand                                                          0%
+  ArchLens.Contracts.Events.ProcessingStartedEvent                                                         0%
+  ArchLens.Contracts.Events.ReportFailedEvent                                                              0%
+  ArchLens.Contracts.Events.ReportGeneratedEvent                                                           0%
+  ArchLens.Contracts.Events.StatusChangedEvent                                                             0%
+  ArchLens.Contracts.Events.UserAccountDeletedEvent                                                        0%
+
+ArchLens.SharedKernel                                                                                   28.4%
+  ArchLens.SharedKernel.Application.Error                                                                100%
+  ArchLens.SharedKernel.Application.PagedRequest                                                           0%
+  ArchLens.SharedKernel.Application.PagedResponse<T>                                                       0%
+  ArchLens.SharedKernel.Application.Result                                                              66.6%
+  ArchLens.SharedKernel.Application.Result<T>                                                            100%
+  ArchLens.SharedKernel.Domain.AggregateRoot<T>                                                            0%
+  ArchLens.SharedKernel.Domain.DomainEvent                                                                 0%
+  ArchLens.SharedKernel.Domain.DomainException                                                             0%
+  ArchLens.SharedKernel.Domain.Entity<T>                                                                23.8%
+  ArchLens.SharedKernel.Domain.ValueObject                                                                 0%

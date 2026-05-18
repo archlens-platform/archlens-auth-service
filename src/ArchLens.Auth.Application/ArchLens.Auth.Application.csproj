@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.*" />
+    <PackageReference Include="MassTransit" Version="8.3.6" />
+    <PackageReference Include="MediatR" Version="12.*" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.*" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="9.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../ArchLens.Auth.Application.Contracts/ArchLens.Auth.Application.Contracts.csproj" />
+    <ProjectReference Include="../../../archlens-contracts/src/ArchLens.SharedKernel/ArchLens.SharedKernel.csproj" />
+    <ProjectReference Include="..\..\..\archlens-contracts\src\ArchLens.Contracts\ArchLens.Contracts.csproj" />
+  </ItemGroup>
+</Project>

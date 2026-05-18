@@ -1,0 +1,43 @@
+Summary
+  Generated on: 12/03/2026 - 01:25:25
+  Coverage date: 12/03/2026 - 01:24:56
+  Parser: Cobertura
+  Assemblies: 3
+  Classes: 17
+  Files: 17
+  Line coverage: 94.6%
+  Covered lines: 159
+  Uncovered lines: 9
+  Coverable lines: 168
+  Total lines: 339
+  Branch coverage: 100% (22 of 22)
+  Covered branches: 22
+  Total branches: 22
+  Method coverage: 92.9% (53 of 57)
+  Full method coverage: 92.9% (53 of 57)
+  Covered methods: 53
+  Fully covered methods: 53
+  Total methods: 57
+
+ArchLens.Auth.Application                                                                      93.4%
+  ArchLens.Auth.Application.DependencyInjection                                                   0%
+  ArchLens.Auth.Application.UseCases.Auth.Commands.DeleteAccount.DeleteAccountCommand           100%
+  ArchLens.Auth.Application.UseCases.Auth.Commands.DeleteAccount.DeleteAccountCommandHandler    100%
+  ArchLens.Auth.Application.UseCases.Auth.Commands.Login.LoginCommand                           100%
+  ArchLens.Auth.Application.UseCases.Auth.Commands.Login.LoginCommandHandler                    100%
+  ArchLens.Auth.Application.UseCases.Auth.Commands.Register.RegisterCommand                     100%
+  ArchLens.Auth.Application.UseCases.Auth.Commands.Register.RegisterCommandHandler              100%
+  ArchLens.Auth.Application.UseCases.Auth.Queries.ExportUserData.ExportUserDataQuery            100%
+  ArchLens.Auth.Application.UseCases.Auth.Queries.ExportUserData.ExportUserDataQueryHandler     100%
+  ArchLens.Auth.Application.UseCases.Auth.Validators.LoginCommandValidator                      100%
+  ArchLens.Auth.Application.UseCases.Auth.Validators.RegisterCommandValidator                   100%
+
+ArchLens.Auth.Application.Contracts                                                            85.7%
+  ArchLens.Auth.Application.Contracts.Auth.JwtOptions                                           100%
+  ArchLens.Auth.Application.Contracts.DTOs.AuthDTOs.AuthResponse                                 80%
+  ArchLens.Auth.Application.Contracts.DTOs.AuthDTOs.RegisterResponse                             75%
+  ArchLens.Auth.Application.Contracts.DTOs.AuthDTOs.UserDataExportResponse                     87.5%
+
+ArchLens.Auth.Domain                                                                            100%
+  ArchLens.Auth.Domain.Entities.UserEntities.User                                               100%
+  ArchLens.Auth.Domain.ValueObjects.Users.Email                                                 100%
